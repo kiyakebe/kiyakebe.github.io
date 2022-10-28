@@ -1,23 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome-free-6.2.0-web/css/all.css">
-    <title>Ksquare</title>
+	<title>KIYA KEBE</title>
 </head>
 <body>
-    <h1>THE BEST PORTFOLIO EVER</h1>
-    <a href="./about">About me</a>
-    <div class="container">
-        <section class="child" style="background-color: orange;">snap 1</section>
-        <section class="child" style="background-color: #3366ff;">snap 2</section>
-        <section class="child" style="background-color: rgb(185, 18, 129);">snap 3</section>
-        <section class="child" style="background-color: rgb(24, 224, 164);">snap 4</section>
-        <section class="child" style="background-color: rgb(196, 17, 17);">snap 5</section>
-    </div>
-    
+
+<div class="main-content">
+	<nav>
+		<input type="checkbox" name="menu" id="menu">
+		<label for="menu"><i class="fas fa-bars"></i></label>
+		<ul>
+			<li><a class="active" href="#"><i class="fa fa-"></i>Portfolio</a></li>
+			<li><a href="index.html#aboutMe"><i class="fa fa-"></i>About Me</a></li>
+			<li><a href="index.html#education"><i class="fa fa-"></i>Education</a></li>
+			<li><a href="index.html#project"><i class="fa fa-"></i>Project</a></li>
+			<li><a href="index.html#contact"><i class="fa fa-"></i>Contact</a></li>
+		</ul>
+	</nav>
+	<aside>
+		<div class="main main-height">
+			<div class="main-width"> <!-- to asign a width of 80% -->
+				<div class="my-decription">
+					 <h1><span>HELLO,</span> <br> I'M Kiya Kebe</h1>
+					 <h2>Freelancing with Designer and Developer</h2>
+				</div>
+				<div class="social" onclick="alert('Sorry! Link not avoilable yet..')">
+					<section>
+						<i class="fab fa-facebook-f icons"></i>
+						<i class="fab fa-youtube icons"></i>
+						<i class="fab fa-twitter icons"></i>
+						<i class="fab fa-instagram icons"></i>
+						<i class="fab fa-pinterest-p icons"></i>
+					</section>
+				</div>
+			</div>
+		</div>
+	
+		<div class="main main-pro-about" id="aboutMe">
+			<div class="my-profile">
+				<div class="border">
+					<img src="image/profile.jpg" alt="My picture">
+				</div>
+			</div>
+			<div class="about">
+				<h2>About Me</h2>
+				<h3>Name: Kiya Kebe</h3>
+				<h4>Web Designer and Developer</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit. Pariatur lure, error, dolores alias aliquam, voluptatibus blandiliis qui sint laborm veritatis fugian assumenda delectus illum malores accusantium dolorum id, dolor eum aperiam. porro saepe incidunt earum deleniti, harum dolorem facilis impedit corrupt.</p>
+				<section>
+					<button class="download" onclick="alert('Sorry! CV not avoilable yet.. ')">Download CV</button>
+					<button class="hire" onclick="alert('Sorry! Not looking for job now')">Hire Me</button>
+				</section>
+			</div>
+		</div>
+	
+		<div class="main education" id="education">
+			<h2>Education</h2>
+			<p>Software Engineering Student at Adama Science and Technology University(2<sup>nd</sup> year)</p>
+			<li>
+				<ul><i data-text="I have full ablity on HTML5 and pervious version as well. I can write HTML5 and combine with css and js and other frame works." class="fab fa-html5"></i></ul>
+				<ul><i data-text="I can write CSS3 very confidently. I am also ablse to work with bootstrap and other css frameworks."class="fab fa-css3-alt"></i></ul>
+				<ul><i data-text="I am intermediate in JS, not that begginer. I can write JS script for web design and animation to its fullest potential."class="fab fa-square-js"></i></ul>
+				<ul><i data-text="some description"class="fab fa-python"></i></ul>
+				<ul><i data-text="some description"class="fab fa-php"></i></ul>
+				<ul><i data-text="some description"class="fab fa-laravel"></i></ul>
+				<ul><i data-text="some description"class="fab fa-sass"></i></ul>
+			</li>
+		</div>
+
+		<div class="projects-container" id="project">
+			<div class="project-dsn">
+				<h2>Projects</h2>
+				<p>Here are some awsome projects I have been working on. Their link to them is avoilable and also 
+					source code is avoilable on github chack on it. Do not forget to follow me there :)</p>
+			</div>
+			<div class="project-det">
+				<section class="projects-ind">
+					<img src="image/calculator.png" alt="JS based calculator">
+					<section>
+						<div>
+							<h3>JS Simple Calculator</h3>
+							<p>This is the first project I have worked on. It is build using HTML, CSS & JS. 
+
+							</br> Source code avoilable on <a href="#" onclick="alert('Link will be avoilable soon..')">github</a> </p>
+						</div>
+						<button onclick="alert('Sorry! Detail status will be avoilable soon..')">More..</button>
+					</section>
+				</section>
+				<section class="projects-ind">
+					<img src="image/portfolio.jpg" alt="Portfolio project">
+					<section>
+						<div>
+							<h3>Portfolio Proect</h3>
+							<p>I build this portfolio for my own personal promotion. It is build using HTML, CSS & JS. 
+
+							</br> Source code avoilable on <a href="#" onclick="alert('Link will be avoilable soon..')">github</a> </p>
+						</div>
+						<button onclick="alert('Sorry! Detail status will be avoilable soon..')">More..</button>
+					</section>
+				</section>
+			</div>
+			<section class="pagination" onclick="alert('Sorry! No routing avoilable yet..')">
+				<i class="fas fa-arrow-left"></i>
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+				<i class="fas fa-arrow-right"></i>
+			</section>
+		</div>
+	
+		<div class="order" id="contact">
+			<h2>What Any Project In Your Mind?</h2>
+			<button>Contact Me</button>
+		</div>
+	
+		<div class="footer">
+			<h2>Going-To-Internate</h2>
+			<p>Lorem ipsum dolor site amet, consectetur Pariatur alit adipisicing.<br> Error, dolores alias aliquam siteamet.</p>
+			<section onclick="alert('Sorry! Link not avoilable yet..')">
+				<i class="fab fa-facebook-f social-icon"></i>
+				<i class="fab fa-youtube  social-icon"></i>
+				<i class="fab fa-twitter  social-icon"></i>
+				<i class="fab fa-instagram  social-icon"></i>
+				<i class="fab fa-pinterest-p  social-icon"></i>
+			</section>
+			<h5>copyright &copy;ksquare. All rights reserved!! <a href="#"> <i class="far fa-heart"></i>ksquare</a></h5>
+		</div>
+	</aside>
+</div>
+<script src="main.js"></script>
+
 </body>
 </html>
